@@ -1,0 +1,17 @@
+@use "variable";
+
+body {
+  margin: 0;
+  background-color: variable.$bg;
+  background-image: url("../images/about-image.jpg");
+  color: var(--text);
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
